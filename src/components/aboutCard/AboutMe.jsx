@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./AboutMe.module.css";
 import profile from "../../assets/profile.png";
 import Download from "../../svg/Download";
-import cv from "../../assets/Ortiz Facundo - CV.pdf";
+import cv from "../../assets/Facundo Ortiz - CV.pdf";
 import Mail from "../../svg/Mail";
 
 const AboutMe = () => {

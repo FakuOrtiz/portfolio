@@ -3,7 +3,7 @@ import styles from "./LeftCard.module.css";
 import LinkedIn from "../../svg/LinkedIn";
 import GitHub from "../../svg/GitHub";
 import Download from "../../svg/Download";
-import cv from "../../assets/Ortiz Facundo - CV.pdf";
+import cv from "../../assets/Facundo Ortiz - CV.pdf";
 
 const LeftCard = () => {
   return (
