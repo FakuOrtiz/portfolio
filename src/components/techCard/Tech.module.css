@@ -29,3 +29,44 @@
   margin-left: 4rem;
   margin-top: 4rem;
 }
+
+.line2 {
+  width: 40px;
+  height: 8px;
+  background-color: #5064e4;
+  border-radius: 20px;
+}
+
+.containerSubtitle {
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+
+.containerTech {
+  width: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerFront {
+  display: grid;
+  grid-template-columns: repeat(3, 6rem);
+  grid-template-rows: repeat(3, 6rem);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.containerBack {
+  display: grid;
+  grid-template-columns: repeat(2, 6rem);
+  grid-template-rows: repeat(2, 6rem);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
