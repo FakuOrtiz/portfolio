@@ -1,0 +1,105 @@
+.containerCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.card {
+  background-color: #5064e4;
+  width: 20rem;
+  border-radius: 20px;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerName {
+  width: 300px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.webDev {
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.containerNavBar {
+  color: white;
+  margin-left: 25px;
+}
+
+.containerNavBarSeccion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.containerNavBarSeccion:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border-right: 5px solid #ff5c5c;
+  margin-left: 5px;
+}
+
+.containerNavBarSeccion::selection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border-right: 5px solid #ff5c5c;
+}
+
+.navBarSeccionName {
+  width: 100%;
+}
+
+.containerIco {
+  width: 40px;
+}
+
+.containerRedes {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+  margin-right: 25px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.containerDownload {
+  display: flex;
+  background-color: #ff5c5c;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 35px;
+}
+
+.linkDownload {
+  text-decoration: none;
+  color: #fff;
+}

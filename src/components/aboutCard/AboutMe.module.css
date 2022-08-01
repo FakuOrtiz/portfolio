@@ -1,0 +1,85 @@
+.containerCard {
+  display: flex;
+  margin-left: 24rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 32rem;
+  width: 60rem;
+}
+
+.line {
+  width: 40px;
+  height: 8px;
+  background-color: #ff5c5c;
+  border-radius: 20px;
+}
+
+.titleContainer {
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+
+.image {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100px;
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+.containerDescripMayor {
+  display: flex;
+  align-items: center;
+}
+
+.containerDescrip {
+  margin: 2rem 1rem 0 1.5rem;
+}
+
+.containerDownload {
+  display: flex;
+  background-color: #ff5c5c;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 35px;
+}
+
+.linkDownload {
+  text-decoration: none;
+  color: #fff;
+}
+
+.containerMail {
+  display: flex;
+  background-color: #5064e4;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 35px;
+}
+
+.linkMail {
+  text-decoration: none;
+  color: #fff;
+}
+
+.containerCVMail {
+  display: flex;
+  justify-content: space-between;
+  width: 19rem;
+  margin-top: 10px;
+}
