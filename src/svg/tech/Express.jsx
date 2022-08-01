@@ -3,6 +3,7 @@ import * as React from "react"
 const Express = (props) => (
   <svg
     viewBox="0 0 512 149"
+    width={70}
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >

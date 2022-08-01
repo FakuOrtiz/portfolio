@@ -2,8 +2,6 @@ import * as React from "react"
 
 const Sequelize = (props) => (
   <svg
-    width={296}
-    height={296}
     viewBox="-20 0 296 296"
     xmlns="http://www.w3.org/2000/svg"
     preserveAspectRatio="xMidYMid"

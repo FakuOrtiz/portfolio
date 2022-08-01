@@ -14,8 +14,8 @@
   margin-right: 30px;
   display: flex;
   flex-direction: column;
-  height: 32rem;
-  width: 60rem;
+  height: 40vw;
+  width: 70vw;
 }
 
 .line {

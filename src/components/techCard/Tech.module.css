@@ -14,8 +14,8 @@
   margin-right: 30px;
   display: flex;
   flex-direction: column;
-  height: 32rem;
-  width: 60rem;
+  height: 40vw;
+  width: 70vw;
 }
 
 .line {
@@ -27,7 +27,7 @@
 
 .titleContainer {
   margin-left: 4rem;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .line2 {
@@ -39,7 +39,7 @@
 
 .containerSubtitle {
   margin-left: 4rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .containerTech {
@@ -47,26 +47,13 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
 }
 
 .containerFront {
-  display: grid;
-  grid-template-columns: repeat(3, 6rem);
-  grid-template-rows: repeat(3, 6rem);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  margin-left: 4rem;
-  margin-top: 1rem;
-}
-
-.containerBack {
-  display: grid;
-  grid-template-columns: repeat(2, 6rem);
-  grid-template-rows: repeat(2, 6rem);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  display: flex;
+  gap: 40px;
   margin-left: 4rem;
   margin-top: 1rem;
 }

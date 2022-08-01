@@ -19,7 +19,7 @@ const Tech = () => {
             <h2>Tecnologías</h2>
             <div className={styles.line}></div>
           </div>
-          <div style={{ display: "flex" }}>
+          <div>
             <div>
               <div className={styles.containerSubtitle}>
                 <h2>Fron-end</h2>
@@ -44,7 +44,7 @@ const Tech = () => {
                 </div>
                 <div className={styles.containerTech}>
                   <Reacts />
-                  <p>React Native</p>
+                  <p>Native</p>
                 </div>
                 <div className={styles.containerTech}>
                   <Redux />
@@ -57,13 +57,13 @@ const Tech = () => {
                 <h2>Back-end</h2>
                 <div className={styles.line2}></div>
               </div>
-              <div className={styles.containerBack}>
+              <div className={styles.containerFront}>
                 <div className={styles.containerTech}>
                   <Node />
                   <p>Node</p>
                 </div>
                 <div className={styles.containerTech}>
-                  <div style={{ width: "100px" }}>
+                  <div>
                     <Express />
                   </div>
                   <p>Express</p>
