@@ -54,7 +54,7 @@ const LeftCard = () => {
               </div>
             </a>
             <a href="https://github.com/FakuOrtiz" target="_blank">
-              <div style={{ width: "35px" }}>
+              <div style={{ width: "35px", marginLeft: "10px" }}>
                 <GitHub />
               </div>
             </a>

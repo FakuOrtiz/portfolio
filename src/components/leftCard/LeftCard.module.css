@@ -7,7 +7,7 @@
 
 .card {
   background-color: #5064e4;
-  width: 20rem;
+  width: 24vw;
   border-radius: 20px;
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
@@ -83,7 +83,7 @@
 .containerRedes {
   display: flex;
   margin-top: 25px;
-  justify-content: space-between;
+  justify-content: center;
   margin-right: 25px;
   align-items: center;
   margin-bottom: 20px;
@@ -97,6 +97,7 @@
   align-items: center;
   width: 140px;
   height: 35px;
+  margin-left: 10px;
 }
 
 .linkDownload {
