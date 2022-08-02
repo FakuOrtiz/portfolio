@@ -15,8 +15,7 @@ const Projects = () => {
             <h2>Proyectos</h2>
             <div className={styles.line}></div>
           </div>
-
-          <div style={{ display: "flex" }}>
+          <div className={styles.containerProjects}>
             <div className={styles.containerScript}>
               <div>
                 <h3>Script-Music</h3>

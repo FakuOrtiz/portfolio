@@ -31,29 +31,39 @@
   border-radius: 20px;
 }
 
+.containerProjects {
+  display: flex;
+  gap: 3.3%;
+  justify-content: center;
+  height: 360px;
+}
+
 .containerScript {
-    display: flex;
-    flex-direction: column;
-    width: 33.3%;
-    align-items: center;
-    margin-top: 40px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.1);
 }
 
 .scriptIMG {
-    max-width: 150px;
-    margin: 10px 0;
+  max-width: 150px;
+  margin: 10px 0;
 }
 
 .containerGitHubDeploy {
-    display: flex;
-    height: 200px;
+  display: flex;
 }
 
 .icon {
-    height: 40px;
-    width: 40px;
-    margin: 10px;
-    align-items: center;
-    justify-content: center;
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
 }
