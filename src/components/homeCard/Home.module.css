@@ -45,22 +45,6 @@
   text-align: center;
 }
 
-.containerIMG {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  background-color: red;
-}
-
-.image {
-  opacity: 10%;
-  height: 90%;
-  border-bottom-right-radius: 20px;
-  position: absolute;
-  filter: grayscale(1);
-  filter: brightness(60%);
-}
-
 .containerDownload {
   display: flex;
   background-color: transparent;

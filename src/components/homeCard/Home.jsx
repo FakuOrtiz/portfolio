@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Home.module.css";
-import me from "../../assets/profileSinBG.png";
 import Mail from "../../svg/Mail";
 import Download from "../../svg/Download";
 import cv from "../../assets/Facundo Ortiz - CV.pdf";
@@ -46,9 +45,6 @@ const Home = () => {
               </a>
             </div>
           </div>
-        </div>
-        <div className={styles.containerIMG}>
-          <img src={me} alt="Facundo Ortiz" className={styles.image} />
         </div>
       </div>
     </div>
