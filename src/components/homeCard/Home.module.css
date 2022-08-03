@@ -54,7 +54,7 @@
 
 .image {
   opacity: 10%;
-  height: 500px;
+  height: 90%;
   border-bottom-right-radius: 20px;
   position: absolute;
   filter: grayscale(1);
