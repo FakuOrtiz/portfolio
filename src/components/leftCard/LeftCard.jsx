@@ -13,36 +13,36 @@ const LeftCard = () => {
           <p className={styles.name}>Facundo Ortiz</p>
           <p className={styles.webDev}>WEB DEVELOPER</p>
         </div>
-        <div className={styles.containerNavBar}>
+        <div>
           <div className={styles.containerNavBarSeccion}>
             <div className={styles.containerIco}>
               <i className="fa-solid fa-house"></i>
             </div>
-            <p className={styles.navBarSeccionName}>Inicio</p>
+            <p>Inicio</p>
           </div>
           <div className={styles.containerNavBarSeccion}>
             <div className={styles.containerIco}>
               <i className="fa-solid fa-user"></i>
             </div>
-            <p className={styles.navBarSeccionName}>Sobre mí</p>
+            <p>Sobre mí</p>
           </div>
           <div className={styles.containerNavBarSeccion}>
             <div className={styles.containerIco}>
               <i className="fa-solid fa-code"></i>
             </div>
-            <p className={styles.navBarSeccionName}>Tecnologías</p>
+            <p>Tecnologías</p>
           </div>
           <div className={styles.containerNavBarSeccion}>
             <div className={styles.containerIco}>
               <i className="fa-solid fa-file"></i>
             </div>
-            <p className={styles.navBarSeccionName}>Proyectos</p>
+            <p>Proyectos</p>
           </div>
           <div className={styles.containerNavBarSeccion}>
             <div className={styles.containerIco}>
               <i className="fa-solid fa-phone"></i>
             </div>
-            <p className={styles.navBarSeccionName}>Contacto</p>
+            <p>Contacto</p>
           </div>
           <div className={styles.containerRedes}>
             <a
@@ -54,7 +54,7 @@ const LeftCard = () => {
               </div>
             </a>
             <a href="https://github.com/FakuOrtiz" target="_blank">
-              <div style={{ width: "35px", marginLeft: "10px" }}>
+              <div style={{ width: "35px" }}>
                 <GitHub />
               </div>
             </a>

@@ -22,7 +22,7 @@ const Tech = () => {
           <div>
             <div>
               <div className={styles.containerSubtitle}>
-                <h2>Fron-end</h2>
+                <h2>Front-end</h2>
                 <div className={styles.line2}></div>
               </div>
               <div className={styles.containerFront}>
