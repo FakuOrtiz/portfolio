@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div id="seccion4" className={styles.containerCard}>
       <div className={styles.card}>
-        <div>
+        <div className={styles.containerAll}>
           <div className={styles.titleContainer}>
             <h2>Proyectos</h2>
             <div className={styles.line}></div>

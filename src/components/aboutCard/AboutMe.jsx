@@ -9,7 +9,7 @@ const AboutMe = () => {
   return (
     <div id="seccion2" className={styles.containerCard}>
       <div className={styles.card}>
-        <div style={{marginTop: "50px"}}>
+        <div className={styles.containerAll}>
           <div className={styles.titleContainer}>
             <h2>Sobre mí</h2>
             <div className={styles.line}></div>

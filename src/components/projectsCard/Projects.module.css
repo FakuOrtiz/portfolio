@@ -14,14 +14,20 @@
   margin-right: 30px;
   display: flex;
   flex-direction: column;
-  height: 90vh;
   width: 70vw;
   box-sizing: border-box;
 }
 
+.containerAll {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
 .titleContainer {
   margin-left: 4rem;
-  margin-top: 1rem;
 }
 
 .line {

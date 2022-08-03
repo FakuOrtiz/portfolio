@@ -68,18 +68,26 @@
   margin-top: 25px;
   margin-bottom: 20px;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .containerDownload {
   display: flex;
   background-color: #ff5c5c;
+  border: 2px solid #ff5c5c;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
   width: 13vw;
-  height: 40px;
+  height: 38px;
   text-align: center;
   padding: 0 5px;
+  transition: 0.1s;
+}
+
+.containerDownload:hover {
+  background-color: #5064e4;
+  border: 2px solid white;
 }
 
 .linkDownload {
