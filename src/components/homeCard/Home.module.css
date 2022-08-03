@@ -30,13 +30,82 @@
 .title {
   font-weight: bold;
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
+}
+
+.punto {
+  color: #ff5c5c;
+  font-size: 100px;
 }
 
 .subtitle {
   color: white;
-  margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
+}
+
+.containerIMG {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: red;
+}
+
+.image {
+  opacity: 10%;
+  height: 500px;
+  border-bottom-right-radius: 20px;
+  position: absolute;
+  filter: grayscale(1);
+  filter: brightness(60%);
+}
+
+.containerDownload {
+  display: flex;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 35px;
+}
+
+.containerDownload:hover {
+  background-color: #ff5c5c;
+}
+
+.linkDownload {
+  text-decoration: none;
+  color: #fff;
+}
+
+.containerMail {
+  display: flex;
+  border: 2px solid white;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 35px;
+  transition: 0.1s;
+}
+
+.containerMail:hover {
+  background-color: #ff5c5c;
+}
+
+.linkMail {
+  text-decoration: none;
+  color: #fff;
+}
+
+.containerCVMail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
 }
