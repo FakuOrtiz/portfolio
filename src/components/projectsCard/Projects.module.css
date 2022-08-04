@@ -97,13 +97,18 @@
     .titleContainer {
       margin-left: 2rem;
     }
+    .containerAllProjects {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
     .containerProjects {
       display: grid;
       height: 100%;
+      width: 95%;
       grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
       align-items: center;
       justify-content: center;
-      margin: 0 20px;
     }
     .containerScript {
       width: 100%;
