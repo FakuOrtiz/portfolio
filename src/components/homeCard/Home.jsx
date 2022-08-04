@@ -6,7 +6,7 @@ import cv from "../../assets/Facundo Ortiz - CV.pdf";
 
 const Home = ({ innerRef }) => {
   return (
-    <div ref={innerRef} className={styles.containerCard}>
+    <div id="home" className={styles.containerCard}>
       <div className={styles.card}>
         <div className={styles.containerAll}>
           <div className={styles.containerName}>

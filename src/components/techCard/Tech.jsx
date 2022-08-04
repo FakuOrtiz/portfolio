@@ -12,7 +12,7 @@ import Sequelize from "../../svg/tech/Sequelize";
 
 const Tech = ({ innerRef }) => {
   return (
-    <div ref={innerRef} className={styles.containerCard}>
+    <div id="tech" className={styles.containerCard}>
       <div className={styles.card}>
         <div className={styles.containerAll}>
           <div className={styles.titleContainer}>

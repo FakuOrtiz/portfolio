@@ -13,7 +13,6 @@ const Contact = ({ innerRef }) => {
 
   let sendEmail = (e) => {
     e.preventDefault();
-    console.log(e);
     emailjs
       .sendForm(
         "service_d4x12eo",
@@ -37,7 +36,7 @@ const Contact = ({ innerRef }) => {
       message: "",
     });
     toast(
-      `¡Gracias por escribirme, ${input.name}! Te responderé lo más pronto posible`,
+      `¡Gracias por escribirme, ${input.name}! Te responderé lo más pronto posible.`,
       {
         icon: "😁",
       }
@@ -45,7 +44,7 @@ const Contact = ({ innerRef }) => {
   };
 
   return (
-    <div ref={innerRef} className={styles.containerCard}>
+    <div id="contact" className={styles.containerCard}>
       <div className={styles.card}>
         <div className={styles.containerAll}>
           <div className={styles.titleContainer}>
@@ -114,9 +113,28 @@ const Contact = ({ innerRef }) => {
               </div>
             </form>
           </div>
+          <div>
+            <div className={styles.containerSubtitle}>
+              <h2>Otros datos</h2>
+              <div className={styles.line2}></div>
+            </div>
+            <div className={styles.containerData}>
+              <a
+                href="https://wa.me/5492613868279"
+                target="_blank"
+                className={styles.infoLink}
+              >
+                WhatsApp
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-      <Toaster />
+      <Toaster
+        toastOptions={{
+          style: { width: "30vw", backgroundColor: "#ff5c5c", color: "#fff" },
+        }}
+      />
     </div>
   );
 };

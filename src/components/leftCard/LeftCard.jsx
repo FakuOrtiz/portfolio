@@ -1,18 +1,19 @@
-import React, { useRef } from "react";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 import styles from "./LeftCard.module.css";
 import LinkedIn from "../../svg/LinkedIn";
 import GitHub from "../../svg/GitHub";
 import Download from "../../svg/Download";
 import cv from "../../assets/Facundo Ortiz - CV.pdf";
 
-const LeftCard = ({ home, aboutMe, tech, projects, contact }) => {
-  const scrollToSeccion = (ref) => {
-    window.scrollTo({
-      top: ref.current.offsetTop,
-      behavior: "smooth",
-    });
-  };
-
+const LeftCard = () => {
+  const [active, setActive] = useState({
+    home: false,
+    about: false,
+    tech: false,
+    projects: false,
+    contact: false,
+  });
   return (
     <div className={styles.containerCard}>
       <div className={styles.card}>
@@ -21,51 +22,126 @@ const LeftCard = ({ home, aboutMe, tech, projects, contact }) => {
           <p className={styles.webDev}>WEB DEVELOPER</p>
         </div>
         <div>
-          <div
-            onClick={() => scrollToSeccion(home)}
-            className={styles.containerNavBarSeccion}
+          <Link
+            className={
+              active.home ? styles.prueba : styles.containerNavBarSeccion
+            }
+            to="home"
+            smooth={true}
+            duration={500}
+            spy={true}
+            activeClass="active"
+            onSetActive={() =>
+              setActive({
+                home: true,
+                about: false,
+                tech: false,
+                projects: false,
+                contact: false,
+              })
+            }
           >
             <div className={styles.containerIco}>
               <i className="fa-solid fa-house"></i>
             </div>
             <p>Inicio</p>
-          </div>
-          <div
-            onClick={() => scrollToSeccion(aboutMe)}
-            className={styles.containerNavBarSeccion}
+          </Link>
+          <Link
+            className={
+              active.about ? styles.prueba : styles.containerNavBarSeccion
+            }
+            to="aboutMe"
+            smooth={true}
+            duration={500}
+            spy={true}
+            activeClass="active"
+            onSetActive={() =>
+              setActive({
+                home: false,
+                about: true,
+                tech: false,
+                projects: false,
+                contact: false,
+              })
+            }
           >
             <div className={styles.containerIco}>
               <i className="fa-solid fa-user"></i>
             </div>
             <p>Sobre mí</p>
-          </div>
-          <div
-            onClick={() => scrollToSeccion(tech)}
-            className={styles.containerNavBarSeccion}
+          </Link>
+          <Link
+            className={
+              active.tech ? styles.prueba : styles.containerNavBarSeccion
+            }
+            to="tech"
+            smooth={true}
+            duration={500}
+            spy={true}
+            activeClass="active"
+            onSetActive={() =>
+              setActive({
+                home: false,
+                about: false,
+                tech: true,
+                projects: false,
+                contact: false,
+              })
+            }
           >
             <div className={styles.containerIco}>
               <i className="fa-solid fa-code"></i>
             </div>
             <p>Tecnologías</p>
-          </div>
-          <div
-            onClick={() => scrollToSeccion(projects)}
-            className={styles.containerNavBarSeccion}
+          </Link>
+          <Link
+            className={
+              active.projects ? styles.prueba : styles.containerNavBarSeccion
+            }
+            to="projects"
+            smooth={true}
+            duration={500}
+            spy={true}
+            activeClass="active"
+            onSetActive={() =>
+              setActive({
+                home: false,
+                about: false,
+                tech: false,
+                projects: true,
+                contact: false,
+              })
+            }
           >
             <div className={styles.containerIco}>
               <i className="fa-solid fa-file"></i>
             </div>
             <p>Proyectos</p>
-          </div>
-          <div
-            onClick={() => scrollToSeccion(contact)}
-            className={styles.containerNavBarSeccion}
+          </Link>
+          <Link
+            className={
+              active.contact ? styles.prueba : styles.containerNavBarSeccion
+            }
+            to="contact"
+            smooth={true}
+            duration={500}
+            spy={true}
+            activeClass="active"
+            onSetActive={() =>
+              setActive({
+                home: false,
+                about: false,
+                tech: false,
+                projects: false,
+                contact: true,
+              })
+            }
           >
             <div className={styles.containerIco}>
               <i className="fa-solid fa-phone"></i>
             </div>
             <p>Contacto</p>
-          </div>
+          </Link>
           <div className={styles.containerRedes}>
             <a
               href="https://www.linkedin.com/in/facundo-agustin-ortiz-gomez/"

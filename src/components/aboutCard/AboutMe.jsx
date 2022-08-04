@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import styles from "./AboutMe.module.css";
 import profile from "../../assets/profile.png";
 import Download from "../../svg/Download";
@@ -7,7 +7,7 @@ import Mail from "../../svg/Mail";
 
 const AboutMe = ({ innerRef }) => {
   return (
-    <div ref={innerRef} className={styles.containerCard}>
+    <div id="aboutMe" className={styles.containerCard}>
       <div className={styles.card}>
         <div className={styles.containerAll}>
           <div className={styles.titleContainer}>

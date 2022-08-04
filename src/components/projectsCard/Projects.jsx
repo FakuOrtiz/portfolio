@@ -8,7 +8,7 @@ import appemon from "../../assets/appemon.png";
 
 const Projects = ({ innerRef }) => {
   return (
-    <div ref={innerRef} className={styles.containerCard}>
+    <div id="projects" className={styles.containerCard}>
       <div className={styles.card}>
         <div className={styles.containerAll}>
           <div className={styles.titleContainer}>
