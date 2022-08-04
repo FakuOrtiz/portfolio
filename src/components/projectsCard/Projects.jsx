@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Projects.module.css";
 import GitHub from "../../svg/GitHubBlack";
 import Deploy from "../../svg/Deploy";
@@ -6,9 +6,9 @@ import scriptMusic from "../../assets/scriptmusic.png";
 import rickAndMorty from "../../assets/rickandmorty.png";
 import appemon from "../../assets/appemon.png";
 
-const Projects = () => {
+const Projects = ({ innerRef }) => {
   return (
-    <div id="seccion4" className={styles.containerCard}>
+    <div ref={innerRef} className={styles.containerCard}>
       <div className={styles.card}>
         <div className={styles.containerAll}>
           <div className={styles.titleContainer}>

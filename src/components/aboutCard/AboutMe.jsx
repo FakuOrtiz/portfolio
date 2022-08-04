@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import styles from "./AboutMe.module.css";
 import profile from "../../assets/profile.png";
 import Download from "../../svg/Download";
 import cv from "../../assets/Facundo Ortiz - CV.pdf";
 import Mail from "../../svg/Mail";
 
-const AboutMe = () => {
+const AboutMe = ({ innerRef }) => {
   return (
-    <div id="seccion2" className={styles.containerCard}>
+    <div ref={innerRef} className={styles.containerCard}>
       <div className={styles.card}>
         <div className={styles.containerAll}>
           <div className={styles.titleContainer}>

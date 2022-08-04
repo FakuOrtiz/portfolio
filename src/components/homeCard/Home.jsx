@@ -4,9 +4,9 @@ import Mail from "../../svg/Mail";
 import Download from "../../svg/Download";
 import cv from "../../assets/Facundo Ortiz - CV.pdf";
 
-const Home = () => {
+const Home = ({ innerRef }) => {
   return (
-    <div id="seccion1" className={styles.containerCard}>
+    <div ref={innerRef} className={styles.containerCard}>
       <div className={styles.card}>
         <div className={styles.containerAll}>
           <div className={styles.containerName}>

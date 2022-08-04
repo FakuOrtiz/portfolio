@@ -10,9 +10,9 @@ import Express from "../../svg/tech/Express";
 import PostgreSQL from "../../svg/tech/PostgreSQL";
 import Sequelize from "../../svg/tech/Sequelize";
 
-const Tech = () => {
+const Tech = ({ innerRef }) => {
   return (
-    <div id="seccion3" className={styles.containerCard}>
+    <div ref={innerRef} className={styles.containerCard}>
       <div className={styles.card}>
         <div className={styles.containerAll}>
           <div className={styles.titleContainer}>
@@ -25,7 +25,7 @@ const Tech = () => {
                 <h2>Front-end</h2>
                 <div className={styles.line2}></div>
               </div>
-              <div className={styles.containerFront}>
+              <div className={styles.containerStack}>
                 <div className={styles.containerTech}>
                   <JavaScript />
                   <p>JavaSript</p>
@@ -39,15 +39,21 @@ const Tech = () => {
                   <p>CSS</p>
                 </div>
                 <div className={styles.containerTech}>
-                  <Reacts />
+                  <div style={{ width: "57px" }}>
+                    <Reacts />
+                  </div>
                   <p>React</p>
                 </div>
                 <div className={styles.containerTech}>
-                  <Reacts />
+                  <div style={{ width: "57px" }}>
+                    <Reacts />
+                  </div>
                   <p>Native</p>
                 </div>
                 <div className={styles.containerTech}>
-                  <Redux />
+                  <div style={{ width: "53px" }}>
+                    <Redux />
+                  </div>
                   <p>Redux</p>
                 </div>
               </div>
@@ -57,7 +63,7 @@ const Tech = () => {
                 <h2>Back-end</h2>
                 <div className={styles.line2}></div>
               </div>
-              <div className={styles.containerFront}>
+              <div className={styles.containerStack}>
                 <div className={styles.containerTech}>
                   <Node />
                   <p>Node</p>

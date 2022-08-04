@@ -99,6 +99,19 @@ textarea {
   -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.15);
 }
 
+.submitDisabled {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: no-drop;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 16px;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.15);
+}
+
 .submit:hover {
   background-color: #ff5c5c;
 }

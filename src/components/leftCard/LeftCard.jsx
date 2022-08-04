@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useRef } from "react";
 import styles from "./LeftCard.module.css";
 import LinkedIn from "../../svg/LinkedIn";
 import GitHub from "../../svg/GitHub";
 import Download from "../../svg/Download";
 import cv from "../../assets/Facundo Ortiz - CV.pdf";
 
-const LeftCard = () => {
+const LeftCard = ({ home, aboutMe, tech, projects, contact }) => {
+  const scrollToSeccion = (ref) => {
+    window.scrollTo({
+      top: ref.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className={styles.containerCard}>
       <div className={styles.card}>
@@ -14,31 +21,46 @@ const LeftCard = () => {
           <p className={styles.webDev}>WEB DEVELOPER</p>
         </div>
         <div>
-          <div className={styles.containerNavBarSeccion}>
+          <div
+            onClick={() => scrollToSeccion(home)}
+            className={styles.containerNavBarSeccion}
+          >
             <div className={styles.containerIco}>
               <i className="fa-solid fa-house"></i>
             </div>
             <p>Inicio</p>
           </div>
-          <div className={styles.containerNavBarSeccion}>
+          <div
+            onClick={() => scrollToSeccion(aboutMe)}
+            className={styles.containerNavBarSeccion}
+          >
             <div className={styles.containerIco}>
               <i className="fa-solid fa-user"></i>
             </div>
             <p>Sobre mí</p>
           </div>
-          <div className={styles.containerNavBarSeccion}>
+          <div
+            onClick={() => scrollToSeccion(tech)}
+            className={styles.containerNavBarSeccion}
+          >
             <div className={styles.containerIco}>
               <i className="fa-solid fa-code"></i>
             </div>
             <p>Tecnologías</p>
           </div>
-          <div className={styles.containerNavBarSeccion}>
+          <div
+            onClick={() => scrollToSeccion(projects)}
+            className={styles.containerNavBarSeccion}
+          >
             <div className={styles.containerIco}>
               <i className="fa-solid fa-file"></i>
             </div>
             <p>Proyectos</p>
           </div>
-          <div className={styles.containerNavBarSeccion}>
+          <div
+            onClick={() => scrollToSeccion(contact)}
+            className={styles.containerNavBarSeccion}
+          >
             <div className={styles.containerIco}>
               <i className="fa-solid fa-phone"></i>
             </div>
