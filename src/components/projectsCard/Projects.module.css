@@ -73,3 +73,35 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 980px) {
+  .containerBig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerCard {
+    margin: 0;
+    width: 90%;
+  }
+  .card {
+    width: 100%;
+  }
+  .scriptIMG {
+    max-width: 100px;
+  }
+
+  @media screen and (max-width: 760px) {
+    .containerProjects {
+      display: grid;
+      height: 100%;
+      grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+      align-items: center;
+      justify-content: center;
+      margin: 0 20px;
+    }
+    .containerScript {
+      width: 100%;
+    }
+  }
+}

@@ -128,3 +128,39 @@ textarea {
 .submit:hover {
   background-color: #ff5c5c;
 }
+
+@media screen and (max-width: 980px) {
+  .containerBig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerCard {
+    margin: 0;
+    width: 90%;
+  }
+  .card {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 690px) {
+    form {
+      display: flex;
+      margin-left: 20px;
+    }
+    textarea {
+      width: 90%;
+    }
+    .input {
+      width: 90%;
+    }
+    .containerNameMail {
+      flex-direction: column;
+      width: 100%;
+      gap: 20px;
+    }
+    .inputDoble {
+      width: 90%;
+    }
+  }
+}

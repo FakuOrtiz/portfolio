@@ -10,77 +10,79 @@ import Express from "../../svg/tech/Express";
 import PostgreSQL from "../../svg/tech/PostgreSQL";
 import Sequelize from "../../svg/tech/Sequelize";
 
-const Tech = ({ innerRef }) => {
+const Tech = () => {
   return (
-    <div id="tech" className={styles.containerCard}>
-      <div className={styles.card}>
-        <div className={styles.containerAll}>
-          <div className={styles.titleContainer}>
-            <h2>Tecnologías</h2>
-            <div className={styles.line}></div>
-          </div>
-          <div>
-            <div>
-              <div className={styles.containerSubtitle}>
-                <h2>Front-end</h2>
-                <div className={styles.line2}></div>
-              </div>
-              <div className={styles.containerStack}>
-                <div className={styles.containerTech}>
-                  <JavaScript />
-                  <p>JavaSript</p>
-                </div>
-                <div className={styles.containerTech}>
-                  <HTML />
-                  <p>HTML</p>
-                </div>
-                <div className={styles.containerTech}>
-                  <CSS />
-                  <p>CSS</p>
-                </div>
-                <div className={styles.containerTech}>
-                  <div style={{ width: "57px" }}>
-                    <Reacts />
-                  </div>
-                  <p>React</p>
-                </div>
-                <div className={styles.containerTech}>
-                  <div style={{ width: "57px" }}>
-                    <Reacts />
-                  </div>
-                  <p>Native</p>
-                </div>
-                <div className={styles.containerTech}>
-                  <div style={{ width: "53px" }}>
-                    <Redux />
-                  </div>
-                  <p>Redux</p>
-                </div>
-              </div>
+    <div className={styles.containerBig}>
+      <div id="tech" className={styles.containerCard}>
+        <div className={styles.card}>
+          <div className={styles.containerAll}>
+            <div className={styles.titleContainer}>
+              <h2>Tecnologías</h2>
+              <div className={styles.line}></div>
             </div>
             <div>
-              <div className={styles.containerSubtitle}>
-                <h2>Back-end</h2>
-                <div className={styles.line2}></div>
-              </div>
-              <div className={styles.containerStack}>
-                <div className={styles.containerTech}>
-                  <Node />
-                  <p>Node</p>
+              <div>
+                <div className={styles.containerSubtitle}>
+                  <h2>Front-end</h2>
+                  <div className={styles.line2}></div>
                 </div>
-                <div className={styles.containerTech}>
-                  <div>
-                    <Express />
+                <div className={styles.containerStack}>
+                  <div className={styles.containerTech}>
+                    <JavaScript />
+                    <p>JavaSript</p>
                   </div>
-                  <p>Express</p>
+                  <div className={styles.containerTech}>
+                    <HTML />
+                    <p>HTML</p>
+                  </div>
+                  <div className={styles.containerTech}>
+                    <CSS />
+                    <p>CSS</p>
+                  </div>
+                  <div className={styles.containerTech}>
+                    <div style={{ width: "57px" }}>
+                      <Reacts />
+                    </div>
+                    <p>React</p>
+                  </div>
+                  <div className={styles.containerTech}>
+                    <div style={{ width: "57px" }}>
+                      <Reacts />
+                    </div>
+                    <p>Native</p>
+                  </div>
+                  <div className={styles.containerTech}>
+                    <div style={{ width: "53px" }}>
+                      <Redux />
+                    </div>
+                    <p>Redux</p>
+                  </div>
                 </div>
-                <div className={styles.containerTech}>
-                  <PostgreSQL />
-                  <p>PostgreSQL</p>
+              </div>
+              <div>
+                <div className={styles.containerSubtitle}>
+                  <h2>Back-end</h2>
+                  <div className={styles.line2}></div>
                 </div>
-                <div className={styles.containerTech}>
-                  <Sequelize />
-                  <p>Sequelize</p>
+                <div className={styles.containerStack}>
+                  <div className={styles.containerTech}>
+                    <Node />
+                    <p>Node</p>
+                  </div>
+                  <div className={styles.containerTech}>
+                    <div>
+                      <Express />
+                    </div>
+                    <p>Express</p>
+                  </div>
+                  <div className={styles.containerTech}>
+                    <PostgreSQL />
+                    <p>PostgreSQL</p>
+                  </div>
+                  <div className={styles.containerTech}>
+                    <Sequelize />
+                    <p>Sequelize</p>
+                  </div>
                 </div>
               </div>
             </div>

@@ -3,7 +3,7 @@ import styles from "./Contact.module.css";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 
-const Contact = ({ innerRef }) => {
+const Contact = () => {
   const [input, setInput] = useState({
     name: "",
     email: "",
@@ -44,82 +44,86 @@ const Contact = ({ innerRef }) => {
   };
 
   return (
-    <div id="contact" className={styles.containerCard}>
-      <div className={styles.card}>
-        <div className={styles.containerAll}>
-          <div className={styles.titleContainer}>
-            <h2>Contacto</h2>
-            <div className={styles.line}></div>
-          </div>
-          <div>
-            <form onSubmit={(e) => sendEmail(e)}>
-              <div className={styles.containerNameMail}>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Nombre"
-                  className={styles.inputDoble}
-                  onChange={(e) => setInput({ ...input, name: e.target.value })}
-                />
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Email"
-                  className={styles.inputDoble}
-                  onChange={(e) =>
-                    setInput({ ...input, email: e.target.value })
-                  }
-                />
-              </div>
-              <div>
-                <input
-                  type="text"
-                  name="subject"
-                  placeholder="Asunto"
-                  className={styles.input}
-                  onChange={(e) =>
-                    setInput({ ...input, subject: e.target.value })
-                  }
-                />
-              </div>
-              <div>
-                <textarea
-                  name="message"
-                  placeholder="Mensaje"
-                  onChange={(e) =>
-                    setInput({ ...input, message: e.target.value })
-                  }
-                ></textarea>
-              </div>
-              <div>
-                <input
-                  type="submit"
-                  disabled={
-                    !input.name ||
-                    !input.email ||
-                    !input.message ||
-                    !input.subject
-                  }
-                  value="Enviar mensaje"
-                  className={
-                    !input.name ||
-                    !input.email ||
-                    !input.message ||
-                    !input.subject
-                      ? styles.submitDisabled
-                      : styles.submit
-                  }
-                />
-              </div>
-            </form>
+    <div className={styles.containerBig}>
+      <div id="contact" className={styles.containerCard}>
+        <div className={styles.card}>
+          <div className={styles.containerAll}>
+            <div className={styles.titleContainer}>
+              <h2>Contacto</h2>
+              <div className={styles.line}></div>
+            </div>
+            <div>
+              <form onSubmit={(e) => sendEmail(e)}>
+                <div className={styles.containerNameMail}>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Nombre"
+                    className={styles.inputDoble}
+                    onChange={(e) =>
+                      setInput({ ...input, name: e.target.value })
+                    }
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    className={styles.inputDoble}
+                    onChange={(e) =>
+                      setInput({ ...input, email: e.target.value })
+                    }
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    name="subject"
+                    placeholder="Asunto"
+                    className={styles.input}
+                    onChange={(e) =>
+                      setInput({ ...input, subject: e.target.value })
+                    }
+                  />
+                </div>
+                <div>
+                  <textarea
+                    name="message"
+                    placeholder="Mensaje"
+                    onChange={(e) =>
+                      setInput({ ...input, message: e.target.value })
+                    }
+                  ></textarea>
+                </div>
+                <div>
+                  <input
+                    type="submit"
+                    disabled={
+                      !input.name ||
+                      !input.email ||
+                      !input.message ||
+                      !input.subject
+                    }
+                    value="Enviar mensaje"
+                    className={
+                      !input.name ||
+                      !input.email ||
+                      !input.message ||
+                      !input.subject
+                        ? styles.submitDisabled
+                        : styles.submit
+                    }
+                  />
+                </div>
+              </form>
+            </div>
           </div>
         </div>
+        <Toaster
+          toastOptions={{
+            style: { width: "30vw", backgroundColor: "#ff5c5c", color: "#fff" },
+          }}
+        />
       </div>
-      <Toaster
-        toastOptions={{
-          style: { width: "30vw", backgroundColor: "#ff5c5c", color: "#fff" },
-        }}
-      />
     </div>
   );
 };

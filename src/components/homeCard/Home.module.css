@@ -99,3 +99,25 @@
   gap: 50px;
   align-items: center;
 }
+
+@media screen and (max-width: 980px) {
+  .containerBig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerCard {
+    margin: 0;
+    width: 90%;
+  }
+  .card {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 565px) {
+    .containerCVMail {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

@@ -89,3 +89,38 @@
   width: 19rem;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 980px) {
+  .containerBig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerCard {
+    margin: 0;
+    width: 90%;
+  }
+  .card {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 720px) {
+    .containerDescripMayor {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+    }
+    .image {
+      margin-left: 0;
+    }
+    .containerCVMail {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+}
