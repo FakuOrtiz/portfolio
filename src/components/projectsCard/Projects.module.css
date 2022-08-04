@@ -86,12 +86,17 @@
   }
   .card {
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
   .scriptIMG {
     max-width: 100px;
   }
 
   @media screen and (max-width: 760px) {
+    .titleContainer {
+      margin-left: 2rem;
+    }
     .containerProjects {
       display: grid;
       height: 100%;

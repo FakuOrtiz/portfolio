@@ -52,7 +52,7 @@ const Contact = () => {
               <h2>Contacto</h2>
               <div className={styles.line}></div>
             </div>
-            <div>
+            <div className={styles.containerForm}>
               <form onSubmit={(e) => sendEmail(e)}>
                 <div className={styles.containerNameMail}>
                   <input

@@ -77,9 +77,17 @@
   }
   .card {
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   @media screen and (max-width: 680px) {
+    .titleContainer {
+      margin-left: 2rem;
+    }
+    .containerSubtitle {
+      margin-left: 2rem;
+    }
     .containerStack {
       display: grid;
       grid-template-columns: 3rem 3rem 3rem;
