@@ -113,21 +113,6 @@ const Contact = ({ innerRef }) => {
               </div>
             </form>
           </div>
-          <div>
-            <div className={styles.containerSubtitle}>
-              <h2>Otros datos</h2>
-              <div className={styles.line2}></div>
-            </div>
-            <div className={styles.containerData}>
-              <a
-                href="https://wa.me/5492613868279"
-                target="_blank"
-                className={styles.infoLink}
-              >
-                WhatsApp
-              </a>
-            </div>
-          </div>
         </div>
       </div>
       <Toaster

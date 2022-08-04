@@ -128,18 +128,3 @@ textarea {
 .submit:hover {
   background-color: #ff5c5c;
 }
-
-.infoLink {
-  text-decoration: none;
-  color: #5064e4;
-}
-
-.infoLink:hover {
-  color: #ff5c5c;
-}
-
-.containerData {
-  display: flex;
-  flex-direction: column;
-  margin-left: 4rem;
-}
