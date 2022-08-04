@@ -130,11 +130,17 @@ textarea {
 }
 
 @media screen and (max-width: 980px) {
-
+  .card {
+    height: 100%;
+  }
   .containerBig {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .containerAll {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .containerCard {
     margin: 0;
@@ -147,13 +153,6 @@ textarea {
   }
 
   @media screen and (max-width: 690px) {
-    .card {
-      height: 100%;
-    }
-    .containerAll {
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
     .titleContainer {
       margin-left: 2rem;
     }
