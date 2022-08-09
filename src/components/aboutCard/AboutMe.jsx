@@ -20,10 +20,10 @@ const AboutMe = () => {
               <div className={styles.containerDescrip}>
                 <h2 style={{ marginBottom: "10px" }}>Soy...</h2>
                 <p>
-                  una persona responsable, comprometida y persistente. Disfruto
-                  enfrentarme a los desafíos que me impongo a mí mismo y lograr
-                  resolverlos con éxito. Formarme profesionalmente me motiva a
-                  seguir perfeccionando mis habilidades.
+                  una persona responsable, organizada y con persistencia y
+                  actitud para crecer día a día tanto profesional como
+                  personalmente. Me adapto fácilmente a nuevos proyectos,
+                  desafíos y/o tecnologías.
                 </p>
                 <div className={styles.containerCVMail}>
                   <div>

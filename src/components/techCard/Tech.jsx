@@ -9,6 +9,9 @@ import Node from "../../svg/tech/Node";
 import Express from "../../svg/tech/Express";
 import PostgreSQL from "../../svg/tech/PostgreSQL";
 import Sequelize from "../../svg/tech/Sequelize";
+import Git from "../../svg/tech/Git";
+import Figma from "../../svg/tech/Figma";
+import MySQL from "../../svg/tech/MySQL";
 
 const Tech = () => {
   return (
@@ -23,7 +26,7 @@ const Tech = () => {
             <div>
               <div>
                 <div className={styles.containerSubtitle}>
-                  <h2>Front-end</h2>
+                  <h2>Front End</h2>
                   <div className={styles.line2}></div>
                 </div>
                 <div className={styles.containerStack}>
@@ -43,7 +46,7 @@ const Tech = () => {
                     <div style={{ width: "57px" }}>
                       <Reacts />
                     </div>
-                    <p>React</p>
+                    <p>React.js</p>
                   </div>
                   <div className={styles.containerTech}>
                     <div style={{ width: "57px" }}>
@@ -61,27 +64,47 @@ const Tech = () => {
               </div>
               <div>
                 <div className={styles.containerSubtitle}>
-                  <h2>Back-end</h2>
+                  <h2>Back End</h2>
                   <div className={styles.line2}></div>
                 </div>
                 <div className={styles.containerStack}>
                   <div className={styles.containerTech}>
                     <Node />
-                    <p>Node</p>
+                    <p>Node.js</p>
                   </div>
                   <div className={styles.containerTech}>
                     <div>
                       <Express />
                     </div>
-                    <p>Express</p>
+                    <p>Express.js</p>
                   </div>
                   <div className={styles.containerTech}>
                     <PostgreSQL />
                     <p>PostgreSQL</p>
                   </div>
                   <div className={styles.containerTech}>
+                    <MySQL />
+                    <p>MySQL</p>
+                  </div>
+                  <div className={styles.containerTech}>
                     <Sequelize />
                     <p>Sequelize</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className={styles.containerSubtitle}>
+                  <h2>Otros</h2>
+                  <div className={styles.line2}></div>
+                </div>
+                <div className={styles.containerStack}>
+                  <div className={styles.containerTech}>
+                    <Git />
+                    <p>Git</p>
+                  </div>
+                  <div className={styles.containerTech}>
+                    <Figma />
+                    <p>Figma</p>
                   </div>
                 </div>
               </div>

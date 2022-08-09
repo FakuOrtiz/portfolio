@@ -16,7 +16,7 @@ const Home = () => {
               </h1>
               <p className={styles.subtitle}>
                 Desarrollador web apasionado por la tecnología. Me encanta el
-                Front-end.
+                Front End.
               </p>
               <div className={styles.containerCVMail}>
                 <div>
