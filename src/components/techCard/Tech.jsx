@@ -12,6 +12,7 @@ import Sequelize from "../../svg/tech/Sequelize";
 import Git from "../../svg/tech/Git";
 import Figma from "../../svg/tech/Figma";
 import MySQL from "../../svg/tech/MySQL";
+import Next from "../../svg/tech/Next";
 
 const Tech = () => {
   return (
@@ -47,6 +48,12 @@ const Tech = () => {
                       <Reacts />
                     </div>
                     <p>React.js</p>
+                  </div>
+                  <div className={styles.containerTech}>
+                    <div style={{ width: "57px" }}>
+                      <Next />
+                    </div>
+                    <p>Next.js</p>
                   </div>
                   <div className={styles.containerTech}>
                     <div style={{ width: "57px" }}>
