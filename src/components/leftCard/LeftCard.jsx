@@ -144,7 +144,7 @@ const LeftCard = () => {
           </Link>
           <div className={styles.containerRedes}>
             <a
-              href="https://www.linkedin.com/in/facundortiz/"
+              href="https://www.linkedin.com/in/fakuortiz/"
               target="_blank"
             >
               <div style={{ width: "35px" }}>
