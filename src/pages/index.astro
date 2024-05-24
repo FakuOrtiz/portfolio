@@ -1,3 +1,18 @@
 ---
-return Astro.redirect("/es");
+import About from "../components/About/About.astro";
+import Contact from "../components/Contact/Contact.astro";
+import Experience from "../components/Experience/Experience.astro";
+import Hero from "../components/Hero/Hero.astro";
+import Knowledges from "../components/Knowledges/Knowledges.astro";
+import Projects from "../components/Projects/Projects.astro";
+import Layout from "../layouts/Layout.astro";
 ---
+
+<Layout>
+  <Hero />
+  <About />
+  <Experience />
+  <Projects />
+  <Knowledges />
+  <Contact />
+</Layout>
