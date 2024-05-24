@@ -9,32 +9,36 @@ const t = useTranslations(lang);
   <h3 class="text-black">{t("contact.title")}</h3>
 
   <div>
-    <article class="flex gap-3">
+    <a
+      href="mailto:facundoagustinortiz@gmail.com"
+      target="_blank"
+      class="flex gap-2 text-[#FF7A7A] w-fit"
+    >
       <img src="/src/assets/email.svg" alt="Email" class="w-7" />
-      <p>facundoagustinortiz@gmail.com</p>
-    </article>
+      facundoagustinortiz@gmail.com
+    </a>
 
-    <article class="flex gap-2">
-      <a href="https://www.linkedin.com/in/fakuortiz" target="_blank">
-        <img src="/src/assets/linkedin.svg" alt="Linkedin" class="w-7" />
-      </a>
-      <a href="https://www.linkedin.com/in/fakuortiz" target="_blank">
-        LinkedIn
-      </a>
-    </article>
+    <a
+      href="https://www.linkedin.com/in/fakuortiz"
+      target="_blank"
+      class="flex gap-2 text-[#78A6FF] w-fit"
+    >
+      <img src="/src/assets/linkedin.svg" alt="Linkedin" class="w-7" />
+      LinkedIn
+    </a>
 
-    <article class="flex gap-2">
-      <a href="https://github.com/FakuOrtiz" target="_blank">
-        <img src="/src/assets/github.svg" alt="GitHub" class="w-7" />
-      </a>
-      <a href="https://github.com/FakuOrtiz" target="_blank"> GitHub </a>
-    </article>
+    <a
+      href="https://github.com/FakuOrtiz"
+      target="_blank"
+      class="flex gap-2 text-[#545454] w-fit"
+    >
+      <img src="/src/assets/github.svg" alt="GitHub" class="w-7" />
+      GitHub
+    </a>
 
-    <article class="flex gap-2">
-      <a href="#" target="_blank">
-        <img src="/src/assets/cv.svg" alt="CV" class="w-7" />
-      </a>
-      <a href="#" target="_blank">CV</a>
-    </article>
+    <a href="#" target="_blank" class="flex gap-2 text-[#D988FF] w-fit">
+      <img src="/src/assets/cv.svg" alt="CV" class="w-7" />
+      CV
+    </a>
   </div>
 </section>
