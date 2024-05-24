@@ -1,0 +1,35 @@
+export const knowledges = {
+  langs: ["JavaScript", "TypeScript", "SQL", "Python", "PHP"],
+  frameworks: [
+    "Next.js",
+    "React Native",
+    "Redux",
+    "Zustand",
+    "Nanostores",
+    "Node.js",
+    "SASS",
+    "Tailwind CSS",
+  ],
+  tools: ["Git", "Vercel", "Figma", "Jira", "Google Analytics"],
+};
+
+export const colorVariants = {
+  JavaScript: "bg-[#FDFF89]",
+  TypeScript: "bg-[#B3CDFF]",
+  SQL: "bg-[#B6FF9C]",
+  Python: "bg-[#FDFF89]",
+  PHP: "bg-[#B3CDFF]",
+  "Next.js": "bg-[#D7D7D7]",
+  "React Native": "bg-[#A9DBFF]",
+  Redux: "bg-[#EAADFF]",
+  Zustand: "bg-[#FDFF89]",
+  Nanostores: "bg-[#D7D7D7]",
+  "Node.js": "bg-[#B6FF9C]",
+  SASS: "bg-[#FF98BC]",
+  "Tailwind CSS": "bg-[#B3CDFF]",
+  Git: "bg-[#FFBE8F]",
+  Vercel: "bg-[#D7D7D7]",
+  Figma: "bg-[#FFAAAA]",
+  Jira: "bg-[#B3CDFF]",
+  "Google Analytics": "bg-[#FFDC6D]",
+};

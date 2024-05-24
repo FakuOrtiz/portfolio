@@ -4,10 +4,13 @@ import { getLangFromUrl, useTranslations } from "../../i18n/utils";
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
-const newRoute = lang === "es" ? "en" : "es";
+const newRoute = "/" + (lang === "es" ? "en" : "es");
 
 ---
 
-<a href={newRoute} class="absolute cursor-pointer top-0 right-0">
+<a
+  href={Astro.url.origin + newRoute}
+  class="absolute cursor-pointer top-0 right-0"
+>
   {t("head.changeLang")}
 </a>
