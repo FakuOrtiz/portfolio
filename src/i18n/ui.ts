@@ -10,7 +10,8 @@ export const ui = {
     "head.hello": "hola, soy",
     "head.subtitle": "desarrollador frontend",
     "head.myResume": "mi cv!",
-    "head.resumeLink": "link en español drive",
+    "head.resumeLink":
+      "https://docs.google.com/document/d/1hIRuTowDMU7vhruxi_stL7Qb7xEKrPPe3Kqer7-r1pA/edit?usp=sharing",
     "head.changeLang": "english",
 
     "about.title": "sobre mí",
@@ -45,7 +46,8 @@ export const ui = {
     "head.hello": "hey, I'm",
     "head.subtitle": "frontend developer",
     "head.myResume": "my resume!",
-    "head.resumeLink": "link in english drive",
+    "head.resumeLink":
+      "https://docs.google.com/document/d/1isbPIU4MCxBKs0onPVqZ2O96oyCFYUyc5ZOj6auKwg0/edit?usp=sharing",
     "head.changeLang": "español",
 
     "about.title": "about",
@@ -73,7 +75,6 @@ export const ui = {
     "knowledges.langs": "Languages",
     "knowledges.frameworks": "Frameworks and libraries",
     "knowledges.tools": "Tools and others",
-
 
     "contact.title": "contact",
   },
