@@ -1,0 +1,22 @@
+---
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<article class="flex flex-col gap-4 items-center sm:flex-row">
+  <img
+    src={"/src/assets/profile.webp"}
+    alt="Facundo Ortiz"
+    class="rounded-full border-2 border-black"
+    width={90}
+    height={90}
+  />
+  
+  <div class="leading-5">
+    <h2>{t("head.hello")}</h2>
+    <h1 class="text-4xl text-black">Facundo Ortiz</h1>
+    <h2 class="text-right">{t("head.subtitle")}</h2>
+  </div>
+</article>

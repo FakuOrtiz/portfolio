@@ -1,0 +1,80 @@
+{
+  "langs": [
+    {
+      "title": "JavaScript",
+      "color": "#FDFF89"
+    },
+    {
+      "title": "TypeScript",
+      "color": "#B3CDFF"
+    },
+    {
+      "title": "SQL",
+      "color": "#B6FF9C"
+    },
+    {
+      "title": "Python",
+      "color": "#FDFF89"
+    },
+    {
+      "title": "PHP",
+      "color": "#B3CDFF"
+    }
+  ],
+  "frameworks": [
+    {
+      "title": "Next.js",
+      "color": "#D7D7D7"
+    },
+    {
+      "title": "React Native",
+      "color": "#A9DBFF"
+    },
+    {
+      "title": "Redux",
+      "color": "#EAADFF"
+    },
+    {
+      "title": "Zustand",
+      "color": "#FDFF89"
+    },
+    {
+      "title": "Nanostores",
+      "color": "#D7D7D7"
+    },
+    {
+      "title": "Node.js",
+      "color": "#B6FF9C"
+    },
+    {
+      "title": "SASS",
+      "color": "#FF98BC"
+    },
+    {
+      "title": "Tailwind CSS",
+      "color": "#B3CDFF"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Git",
+      "color": "#FFBE8F"
+    },
+    {
+      "title": "Vercel",
+      "color": "#D7D7D7"
+    },
+    {
+      "title": "Figma",
+      "color": "#FFAAAA"
+    },
+    {
+      "title": "Jira",
+      "color": "#B3CDFF"
+    },
+    {
+      "title": "Google Analytics",
+      "color": "#FFDC6D"
+    }
+  ]
+}

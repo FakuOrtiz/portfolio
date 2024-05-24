@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Pomodoro",
+    "github": "https://github.com/FakuOrtiz/pomodoro",
+    "deploy": "https://chillpomodoro.vercel.app",
+    "image": "/src/assets/pomodoro.webp"
+  },
+  {
+    "title": "Portfolio 1",
+    "github": "https://github.com/FakuOrtiz/portfolio-old-1",
+    "deploy": "https://facundoortiz.vercel.app/",
+    "image": "/src/assets/portfolio1.webp"
+  }
+]

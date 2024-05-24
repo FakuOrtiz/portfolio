@@ -1,0 +1,31 @@
+---
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+import Badge from "./Badge.astro";
+import json from "./knowledges.json";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const langs = json.langs;
+const frameworks = json.frameworks;
+const tools = json.tools;
+---
+
+<section class="flex flex-col gap-5">
+  <h3 class="text-black">{t("knowledges.title")}</h3>
+
+  <h4>{t("knowledges.langs")}</h4>
+  <div class="flex gap-1 flex-wrap">
+    {langs.map((l) => <Badge lang={l} />)}
+  </div>
+
+  <h4>{t("knowledges.frameworks")}</h4>
+  <div class="flex gap-1 flex-wrap">
+    {frameworks.map((f) => <Badge lang={f} />)}
+  </div>
+
+  <h4>{t("knowledges.tools")}</h4>
+  <div class="flex gap-1 flex-wrap">
+    {tools.map((t) => <Badge lang={t} />)}
+  </div>
+</section>

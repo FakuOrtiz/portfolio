@@ -1,0 +1,25 @@
+---
+import "@fontsource/neucha";
+import { getLangFromUrl } from "../i18n/utils";
+import { ViewTransitions } from "astro:transitions";
+
+const lang = getLangFromUrl(Astro.url);
+---
+
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Facundo Ortiz</title>
+    <ViewTransitions />
+  </head>
+  <body
+    class="font-neucha flex flex-col items-center bg-bgColor text-lg text-textColor"
+  >
+    <main class="max-w-[600px] w-full min-h-screen p-4 pb-10 flex flex-col gap-10">
+      <slot />
+    </main>
+  </body>
+</html>

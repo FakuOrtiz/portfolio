@@ -1,0 +1,29 @@
+---
+const { title, image, github, deploy } = Astro.props.project;
+---
+
+<article class="bg-[#e8e4e4] rounded-3xl p-4 flex flex-col gap-1">
+  <div class="flex justify-between">
+    <p class="text-black">{title}</p>
+
+    <div class="flex gap-4 sm:gap-2">
+      <a href={github} target="_blank">
+        <img
+          src="/src/assets/github.svg"
+          alt={github}
+          class="w-7 text-red-500"
+        />
+      </a>
+
+      <a href={deploy} target="_blank">
+        <img src="/src/assets/newTab.svg" alt={deploy} class="w-7" />
+      </a>
+    </div>
+  </div>
+
+  <img
+    src={image}
+    alt={title}
+    class="rounded-3xl border-[1px] border-textColor w-full sm:h-[118px]"
+  />
+</article>

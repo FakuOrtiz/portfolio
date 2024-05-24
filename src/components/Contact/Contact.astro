@@ -1,0 +1,40 @@
+---
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<section class="flex flex-col gap-5">
+  <h3 class="text-black">{t("contact.title")}</h3>
+
+  <div>
+    <article class="flex gap-3">
+      <img src="/src/assets/email.svg" alt="Email" class="w-7" />
+      <p>facundoagustinortiz@gmail.com</p>
+    </article>
+
+    <article class="flex gap-2">
+      <a href="https://www.linkedin.com/in/fakuortiz" target="_blank">
+        <img src="/src/assets/linkedin.svg" alt="Linkedin" class="w-7" />
+      </a>
+      <a href="https://www.linkedin.com/in/fakuortiz" target="_blank">
+        LinkedIn
+      </a>
+    </article>
+
+    <article class="flex gap-2">
+      <a href="https://github.com/FakuOrtiz" target="_blank">
+        <img src="/src/assets/github.svg" alt="GitHub" class="w-7" />
+      </a>
+      <a href="https://github.com/FakuOrtiz" target="_blank"> GitHub </a>
+    </article>
+
+    <article class="flex gap-2">
+      <a href="#" target="_blank">
+        <img src="/src/assets/cv.svg" alt="CV" class="w-7" />
+      </a>
+      <a href="#" target="_blank">CV</a>
+    </article>
+  </div>
+</section>
