@@ -16,7 +16,7 @@ export const ui = {
 
     "about.title": "Sobre mí",
     "about.content":
-      "+3 años de experiencia en desarrollo web. Me apasiona la tecnología y disfruto creando productos óptimos, accesibles y eficientes, siempre enfocados en el usuario. Me gusta el mate 🧉",
+      "+3 años de experiencia en desarrollo web. Me apasiona la tecnología y disfruto creando productos óptimos, accesibles y eficientes, siempre enfocados en el usuario.",
 
     "experience.title": "Experiencia",
     "experience.content": [
@@ -51,7 +51,7 @@ export const ui = {
 
     "about.title": "About",
     "about.content":
-      "+3 years of experience in web development. I'm passionate about technology and I enjoy creating optimal, accessible, and efficient products, always focused on the user. I like drinking mate 🧉",
+      "+3 years of experience in web development. I'm passionate about technology and I enjoy creating optimal, accessible, and efficient products, always focused on the user",
 
     "experience.title": "Experience",
     "experience.content": [
