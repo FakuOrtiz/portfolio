@@ -14,11 +14,11 @@ export const ui = {
       "https://docs.google.com/document/d/1hIRuTowDMU7vhruxi_stL7Qb7xEKrPPe3Kqer7-r1pA/edit?usp=sharing",
     "head.changeLang": "english",
 
-    "about.title": "sobre mí",
+    "about.title": "Sobre mí",
     "about.content":
       "+3 años de experiencia en desarrollo web. Me apasiona la tecnología y disfruto creando productos óptimos, accesibles y eficientes, siempre enfocados en el usuario. Me gusta el mate 🧉",
 
-    "experience.title": "experiencia",
+    "experience.title": "Experiencia",
     "experience.content": [
       {
         title: "Curadeuda",
@@ -33,14 +33,14 @@ export const ui = {
       },
     ],
 
-    "projects.title": "proyectos",
+    "projects.title": "Proyectos",
 
-    "knowledges.title": "conocimientos",
+    "knowledges.title": "Conocimientos",
     "knowledges.langs": "Lenguajes",
     "knowledges.frameworks": "Frameworks y librerías",
     "knowledges.tools": "Herramientas y otros",
 
-    "contact.title": "contacto",
+    "contact.title": "Contacto",
   },
   en: {
     "head.hello": "hey, I'm",
@@ -50,11 +50,11 @@ export const ui = {
       "https://docs.google.com/document/d/1isbPIU4MCxBKs0onPVqZ2O96oyCFYUyc5ZOj6auKwg0/edit?usp=sharing",
     "head.changeLang": "español",
 
-    "about.title": "about",
+    "about.title": "About",
     "about.content":
       "+3 years of experience in web development. I'm passionate about technology and I enjoy creating optimal, accessible, and efficient products, always focused on the user. I like drinking mate 🧉",
 
-    "experience.title": "experience",
+    "experience.title": "Experience",
     "experience.content": [
       {
         title: "Curadeuda",
@@ -69,13 +69,13 @@ export const ui = {
       },
     ],
 
-    "projects.title": "projects",
+    "projects.title": "Projects",
 
-    "knowledges.title": "knowledges",
+    "knowledges.title": "Knowledges",
     "knowledges.langs": "Languages",
     "knowledges.frameworks": "Frameworks and libraries",
     "knowledges.tools": "Tools and others",
 
-    "contact.title": "contact",
+    "contact.title": "Contact",
   },
 } as const;

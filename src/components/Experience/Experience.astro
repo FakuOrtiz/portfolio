@@ -2,8 +2,8 @@
 import { getLangFromUrl, useTranslations } from "../../i18n/utils";
 
 const variantColors = {
-  Curadeuda: "text-[#08C47C]",
-  "Curadeuda-marker": "marker:text-[#08C47C]",
+  Curadeuda: "text-[#6C3483]",
+  "Curadeuda-marker": "marker:text-[#6C3483]",
 };
 
 type TColor = keyof typeof variantColors;
@@ -22,7 +22,7 @@ const exps: IExp[] = t("experience.content") as any;
 ---
 
 <section class="flex flex-col gap-5">
-  <h3 class="text-black">{t("experience.title")}</h3>
+  <h3 class="text-black font-bold">{t("experience.title")}</h3>
 
   {
     exps.map((e) => (

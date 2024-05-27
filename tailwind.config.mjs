@@ -5,10 +5,10 @@ export default {
     extend: {
       colors: {
         bgColor: "#F9F9F9",
-        textColor: "#9F9F9F",
+        textColor: "#3D3D3D",
       },
       fontFamily: {
-        neucha: ["Neucha", "sans-serif"],
+        montse: ["Montserrat Variable", "sans-serif"],
       },
     },
   },
