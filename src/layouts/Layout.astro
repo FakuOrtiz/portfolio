@@ -1,5 +1,5 @@
 ---
-import '@fontsource-variable/montserrat';
+import "@fontsource-variable/montserrat";
 import { getLangFromUrl } from "../i18n/utils";
 import { ViewTransitions } from "astro:transitions";
 
@@ -8,17 +8,61 @@ const lang = getLangFromUrl(Astro.url);
 
 <html lang={lang}>
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
+    <!--Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="description" content="Frontend Developer (Web and Mobile)" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="author" content="Facundo Ortiz" />
+    <meta name="creator" content="Facundo Ortiz" />
+    <meta name="publisher" content="Facundo Ortiz" />
+    <meta name="editor" content="Facundo Ortiz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="portfolio, facundo ortiz, web development, wep developer, frontend, desarrollador web, desarrollador frontend"
+    />
+    <link rel="canonical" href="https://fakuortiz.vercel.app" />
+    <meta name="theme-color" content="#F9F9F9" />
+    <meta name="robots" content="index, follow" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Facundo Ortiz | Portfolio" />
+    <meta
+      property="og:description"
+      content="Frontend Developer (Web and Mobile)"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Facundo Ortiz | Portfolio" />
+    <meta property="og:url" content="https://fakuortiz.vercel.app" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:image" content="/img/opengraph.webp" />
+    <meta property="og:image:alt" content="Facundo Ortiz | Portfolio" />
+    <meta property="og:image:type" content="image/webp" />
+    <meta property="og:image:width" content="1366" />
+    <meta property="og:image:height" content="768" />
+    <!-- Open Graph / Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@FakuOrtiz31" />
+    <meta name="twitter:creator" content="@FakuOrtiz31" />
+    <meta name="twitter:title" content="Facundo Ortiz | Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Frontend Developer (Web and Mobile)"
+    />
+    <meta name="twitter:image" content="/img/opengraph.webp" />
+    <meta name="twitter:image:alt" content="Facundo Ortiz | Portfolio" />
+    <meta name="twitter:image:width" content="1366" />
+    <meta name="twitter:image:height" content="768" />
+    <!-- Favicon and Title -->
+    <link rel="icon" type="image/svg+xml" href="/img/profile.webp" />
     <title>Facundo Ortiz | Portfolio</title>
     <ViewTransitions />
   </head>
   <body
     class="font-montse flex flex-col items-center bg-bgColor text-base text-textColor"
   >
-    <main class="max-w-[600px] w-full min-h-screen p-4 pb-10 flex flex-col gap-10">
+    <main
+      class="max-w-[600px] w-full min-h-screen p-4 pb-10 flex flex-col gap-10"
+    >
       <slot />
     </main>
   </body>
