@@ -1,13 +1,6 @@
 ---
 import { getLangFromUrl, useTranslations } from "../../i18n/utils";
 
-const variantColors = {
-  Curadeuda: "text-[#6C3483]",
-  "Curadeuda-marker": "marker:text-[#6C3483]",
-};
-
-type TColor = keyof typeof variantColors;
-
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
@@ -28,13 +21,11 @@ const exps: IExp[] = t("experience.content") as any;
     exps.map((e) => (
       <article>
         <div class="flex justify-between mb-3">
-          <h4 class={variantColors[e.title as TColor]}>{e.title}</h4>
+          <h4>{e.title}</h4>
           <h4>{e.date}</h4>
         </div>
 
-        <ul
-          class={`flex flex-col gap-3 list-disc pl-8 ${variantColors[(e.title + "-marker") as TColor]}`}
-        >
+        <ul class="flex flex-col gap-3 list-disc pl-8">
           {e.exp.map((li) => (
             <li>{li}</li>
           ))}

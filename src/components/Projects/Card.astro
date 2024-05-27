@@ -1,22 +1,20 @@
 ---
-const { title, image, github, deploy } = Astro.props.project;
+const { title, image, github, deploy, tech } = Astro.props.project;
 ---
 
-<article class="bg-[#e8e4e4] rounded-3xl p-4 flex flex-col gap-1">
-  <div class="flex justify-between">
+<article
+  class="bg-textColor/5 border-[1px] border-textColor rounded-3xl p-4 flex flex-col gap-2"
+>
+  <div class="flex justify-between items-center">
     <p class="text-black">{title}</p>
 
     <div class="flex gap-2">
       <a href={github} target="_blank">
-        <img
-          src="/img/github.svg"
-          alt={github}
-          class="w-7 text-red-500"
-        />
+        <img src="/img/github-black.svg" alt={github} class="w-7" />
       </a>
 
       <a href={deploy} target="_blank">
-        <img src="/img/newTab.svg" alt={deploy} class="w-7" />
+        <img src="/img/rocket.svg" alt={deploy} class="w-7" />
       </a>
     </div>
   </div>
@@ -24,6 +22,6 @@ const { title, image, github, deploy } = Astro.props.project;
   <img
     src={image}
     alt={title}
-    class="rounded-3xl border-[1px] border-textColor w-full sm:h-[118px]"
+    class="rounded-3xl border-[1px] border-textColor/50 w-full sm:h-[118px]"
   />
 </article>

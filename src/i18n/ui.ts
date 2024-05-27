@@ -23,7 +23,6 @@ export const ui = {
       {
         title: "Curadeuda",
         date: "Sep 2022 - Actualidad",
-        color: "text-[#08C47C]",
         exp: [
           "Lideré el frontend en la migración del proyecto principal a tecnologías más modernas, reduciendo errores y mejorando la experiencia de usuario, lo cual resultó en un aumento del 66% (400K) en la base de clientes.",
           "Desarrollé un Back Office para optimizar el trabajo en diversas áreas, incluyendo funcionalidades como un visor de documentos de clientes, un simulador de programas, modificación de datos y la integración con la API de Jira.",
@@ -58,8 +57,7 @@ export const ui = {
     "experience.content": [
       {
         title: "Curadeuda",
-        date: "Sep 2022 - Present",
-        color: "text-[#08C47C]",
+        date: "Sep 2022 - Now",
         exp: [
           "I led the frontend migration of the main project to more modern technologies, reducing errors and improving user experience, resulting in a 66% increase (400K) in the customer base.",
           "I developed a Back Office to optimize work across various areas, including functionalities such as a customer document viewer, program simulator, data modification, and integration with the Jira API.",

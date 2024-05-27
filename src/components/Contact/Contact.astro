@@ -12,7 +12,7 @@ const t = useTranslations(lang);
     <a
       href="mailto:facundoagustinortiz@gmail.com"
       target="_blank"
-      class="flex gap-2 text-[#FF7A7A]"
+      class="flex gap-1 items-center text-[#FF7A7A]"
     >
       <img src="/img/email.svg" alt="Email" class="w-7" />
       facundoagustinortiz@gmail.com
@@ -21,7 +21,7 @@ const t = useTranslations(lang);
     <a
       href="https://www.linkedin.com/in/fakuortiz"
       target="_blank"
-      class="flex gap-2 text-[#78A6FF] w-fit"
+      class="flex gap-1 items-center text-[#78A6FF] w-fit"
     >
       <img src="/img/linkedin.svg" alt="Linkedin" class="w-7" />
       LinkedIn
@@ -30,13 +30,17 @@ const t = useTranslations(lang);
     <a
       href="https://github.com/FakuOrtiz"
       target="_blank"
-      class="flex gap-2 text-[#545454] w-fit"
+      class="flex gap-1 items-center text-[#545454] w-fit"
     >
       <img src="/img/github.svg" alt="GitHub" class="w-7" />
       GitHub
     </a>
 
-    <a href={t("head.resumeLink")} target="_blank" class="flex gap-2 text-[#D988FF] w-fit">
+    <a
+      href={t("head.resumeLink")}
+      target="_blank"
+      class="flex gap-1 items-center text-[#D988FF] w-fit"
+    >
       <img src="/img/cv.svg" alt="CV" class="w-7" />
       CV
     </a>
