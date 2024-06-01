@@ -16,7 +16,7 @@ export const ui = {
 
     "about.title": "Sobre mí",
     "about.content":
-      "+3 años de experiencia en desarrollo web. Me apasiona la tecnología y disfruto creando productos óptimos, accesibles y eficientes, siempre enfocados en el usuario.",
+      "+3 años de experiencia en desarrollo web. Empecé programando en Java con Spring Boot pero me enamoré del Frontend. A la hora de diseñar y desarrollar, me enfoco 100% en la experiencia del usuario.",
 
     "experience.title": "Experiencia",
     "experience.content": [
@@ -51,7 +51,7 @@ export const ui = {
 
     "about.title": "About",
     "about.content":
-      "+3 years of experience in web development. I'm passionate about technology and I enjoy creating optimal, accessible, and efficient products, always focused on the user",
+      "+3 years of experience in web development. I started programming in Java with Spring Boot but fell in love with Frontend development. When I'm designing and developing, I focus 100% on the user experience.",
 
     "experience.title": "Experience",
     "experience.content": [
