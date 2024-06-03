@@ -27,7 +27,7 @@ export const ui = {
           "Lideré el frontend en la migración del proyecto principal a tecnologías más modernas, reduciendo errores y mejorando la experiencia de usuario, lo cual resultó en un aumento del 66% (400K) en la base de clientes.",
           "Desarrollé un Back Office para optimizar el trabajo en diversas áreas, incluyendo funcionalidades como un visor de documentos de clientes, un simulador de programas, modificación de datos y la integración con la API de Jira.",
           "Desarrollé una versión QA y Demo de la app para simular casos e identificar errores de manera eficiente.",
-          "Creé de documentación completa de la API de la empresa, mejorando su accesibilidad y comprensión por parte de los partners.",
+          "Creé la documentación completa de la API de la empresa, mejorando su accesibilidad y comprensión por parte de los partners.",
         ],
       },
     ],
